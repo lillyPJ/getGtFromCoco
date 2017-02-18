@@ -1,0 +1,9 @@
+This dir is to generate a subset dataset for coco-text.
+1. getGtTxtFromJson.py: extract txt format gt from json file provided by the original coco-text dataset
+2. showGtFromTxt.py: show all images and gt_box from the image dir and gt_txt dir
+3. testDemo.py: show an image and gt_box from the image dir and gt_json file
+4. selectGtImg.py: select good text image to generate a new subset dataset for coco-text
+
+The subset size:
+   train: 2551
+   val: 1194
